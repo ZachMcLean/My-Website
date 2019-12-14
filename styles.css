@@ -1,4 +1,58 @@
+html {
+  background: #999;
+}
 body {
-    background-color: #E3E3E3
-    font-family: sans-serif;
+  margin: 0;  
+  background: #999;
+  font-family: arial;
+}
+
+header {
+  background: #777;
+  margin: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+h1 {
+  margin: 10px 15px;
+}
+
+h3 {
+  background: #777;
+  color: red;
+  padding: 10px;
+}
+
+nav ul{
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  background: #333;
+  color: black;
+  text-align: center;
+  margin: 1%;
+  width: 14%;
+}
+
+nav ul li a {
+  color: orange;
+}
+
+.row {
+  clear: both;
+}
+
+.col {
+  background: #333;
+  color: red;
+  border-radius: 5px;
+  float: left;
+  margin: 1%;
+  width: 31%;
 }
